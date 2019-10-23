@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>calc</title>
+		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+	  <div class="row">
+		<div class="container">
+		  <div class="col-lg-12 col-md-12 col-sm-12">
+			<div class="calc-mb">
+			  <table class="table table-calc">
+				<thead>
+				  <th>Tipo de Uso</th>
+				  <th>Numero de dispositivos que utilizam simultaneamente </th>
+				  <th>Consumo médio constante</th>
+				</thead>
+				<tbody>
+				  <tr>
+				  	<td></td>
+				  	<td>0--------------------1--------------------2--------------------3--------------------4</td>
+				  </tr>
+				  <tr>
+				 	<td>Navegação simples, redes sociais</td>
+					<td><input type="range" class="custom-range" min="0" max="4" default="0" id="customRange1" onclick="result()"></td>
+					<td class="mb">2 MB</td>
+				  </tr>
+				  <tr>
+					<td>Música online (Spotify, Deezer, etc.)</td>
+					<td><input type="range" class="custom-range" min="0" max="4" id="customRange2" onclick="result()"></td>
+					<td class="mb">3 MB</td>
+				  </tr>
+				  <tr>
+					<td>Compartilhamento de fotos, vídeos, etc.</td>
+					<td><input type="range" class="custom-range" min="0" max="4" id="customRange3" onclick="result()"></td>
+					<td class="mb">5 MB</td>
+				  </tr>
+				  <tr>
+					<td>Netflix, Youtube, Amazon Prime, etc.</td>
+					<td><input type="range" class="custom-range" min="0" max="4" id="customRange4" onclick="result()"></td>
+					<td class="mb">10 MB</td>
+				  </tr>
+				  <tr>
+					<td>Video conderência Skype, Hangouts, etc.</td>
+					<td><input type="range" class="custom-range" min="0" max="4" id="customRange5" onclick="result()"></td>
+					<td class="mb">2 MB</td>
+				  </tr>
+				  <tr>
+					<td>Backup, Google Drive e Dropbox</td>
+					<td><input type="range" class="custom-range" min="0" max="4" id="customRange6" onclick="result()"></td>
+					<td class="mb">10 MB</td>
+				  </tr>
+				  <tr>
+					<td>Vídeo Ultra HD</td>
+					<td><input type="range" class="custom-range" min="0" max="4" id="customRange7" onclick="result()"></td>
+					<td class="mb">10 MB</td>
+				  </tr>
+				</tbody>
+			  </table>
+			  <div class="result">
+			  	<div class="col-lg-4 col-md-4 result-box">
+			  		<p>O PLANO IDEAL PARA VOCÊ!</p>
+			  	</div>
+			  	<div class="col-lg-4 col-md-4 result-box">
+			  		<p id="result" style="font-size: 2em;">30 MB</p>
+			  	</div>
+			  	<div class="col-lg-4 col-md-4 result-box">
+			  		<p>ASSINE AGORA MESMO</p>
+			  	</div>
+			  </div>		
+			</div>
+		  </div>
+	    </div>
+      </div>
+
+      <script>
+ 		result();	
+      </script>
+    </body>
+</html>	

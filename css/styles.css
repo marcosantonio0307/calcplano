@@ -1,0 +1,47 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.calc-mb {
+	margin-top: 200px;
+	width: 100%;
+	margin: 8em auto;
+	background: #088A85;
+	padding: 3em;
+	border-radius: 1em;
+	font-size: 0.8em;
+}
+
+.table-calc thead th {
+	border: solid 5px #088A85;
+	background: #fff;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.table-calc tr td {
+	color: #fff;
+	font-weight: bold;
+}
+
+.mb {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.result {
+	width: 90%;
+	margin: 1em auto;
+	background: #FE642E;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.result-box {
+	float: left;
+	background: #FE642E;
+	height: 100px;
+	padding: 1em;
+	text-align: center;
+	line-height: 2em;
+}
