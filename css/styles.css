@@ -2,21 +2,30 @@ body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+.container-big {
+	width: 95%;
+	margin: 2em auto;
+}
+
 .calc-mb {
-	margin-top: 200px;
 	width: 100%;
-	margin: 8em auto;
-	background: #088A85;
-	padding: 3em;
+	margin: 0em auto;
+	background: url('../img/logo.png'), #00AEEF;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center; 
+	padding: 1em;
 	border-radius: 1em;
 	font-size: 0.8em;
 }
 
 .table-calc thead th {
-	border: solid 5px #088A85;
-	background: #fff;
-	font-size: 0.9em;
+	border: solid 5px #00aeef;
+	background: #096485;
+	color: #fff;
+	font-size: 1.1em;
 	text-align: center;
+	border-radius: 1em;
 }
 
 .table-calc tr td {
@@ -30,18 +39,11 @@ body {
 }
 
 .result {
-	width: 90%;
-	margin: 1em auto;
-	background: #FE642E;
+	width: 100%;
+	background: #00AEEF;
 	font-size: 1.5em;
 	font-weight: bold;
-}
-
-.result-box {
-	float: left;
-	background: #FE642E;
-	height: 100px;
-	padding: 1em;
-	text-align: center;
-	line-height: 2em;
+	border-radius: 0.5em;
+	color: #fff;
+	padding-top: 1em;
 }
