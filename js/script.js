@@ -8,7 +8,7 @@ function result(){
       var range7 = document.getElementById("customRange7").value * 10;
       var consumption = range1 + range2 + range3 + range4 + range5 + range6 + range7;
 
-      var   result = document.getElementById('result');
+      var result = document.getElementById('result');
       if (consumption == 0) {
             result.firstChild.textContent = '0 MB'
       } else if (consumption < 34) {
